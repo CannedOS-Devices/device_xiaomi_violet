@@ -1,26 +1,26 @@
 [
   {
-    "repository" : "device_xiaomi_violet",
+    "remote": "github",
+    "repository": "CannedOS-Devices/device_xiaomi_violet", 
     "target_path": "device/xiaomi/violet",
-    "branch": "ravioli",
-    "remote": "pixel-devices-blobs"
+    "branch": "ravioli"
   },
   {
-    "repository" : "vendor_xiaomi_violet",
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi_violet", 
     "target_path": "vendor/xiaomi/violet",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "branch": "eleven"
   },
   {
-    "repository": "kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/violet",
-    "branch":"eleven",
-    "remote":"pixel-devices"
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi-firmware"
+    "target_path": "vendor/xiaomi-firmware"
+    "branch": "eleven"
   },
   {
-    "repository": "vendor_xiaomi-firmware",
-    "target_path": "vendor/xiaomi-firmware",
-    "branch":"eleven",
-    "remote":"pixel-devices-blobs"
-  }
-]
+    "remote": "github",
+    "repository": "PixelExperience-Devices/kernel_xiaomi_violet"
+    "target_path": "kernel/xiaomi/sm6150"
+    "branch": "eleven"
+  },
+] 
